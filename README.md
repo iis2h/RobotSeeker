@@ -1,4 +1,9 @@
 # RobotSeeker
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/iis2h/RobotSeeker?label=version)
+![GitHub top language](https://img.shields.io/github/languages/top/iis2h/RobotSeeker?color=15E245)
+
+
+
 RobotSeeker is a tool that grabs `robots.txt` files from a bunch of subdomains and does the following stuff:
 
 * Generate a wordlist from the words in all the `robots.txt` files. Helpful for fuzzing the same target.
