@@ -8,12 +8,12 @@
 </p>
 
 <p>
-  <a href="https://github.com/iis2h/RobotSeeker#features">Features</a> •
-  <a href="https://github.com/iis2h/RobotSeeker#installation">Installation</a> •
-  <a href="https://github.com/iis2h/RobotSeeker#usage">Usage</a> •
-  <a href="https://github.com/iis2h/RobotSeeker#status">Status</a> •
-  <a href="https://github.com/iis2h/RobotSeeker#flags">Flags</a> •
-  <a href="https://github.com/iis2h/RobotSeeker#output">Output</a> •
+  <a href="#features">Features</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#status">Status</a> •
+  <a href="#flags">Flags</a> •
+  <a href="#output">Output</a> •
   <a href="https://raw.githubusercontent.com/iis2h/RobotSeeker/main/CHANGELOG.txt" target="_blank">CHANGELOG</a>
 </p>
 
