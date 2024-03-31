@@ -1,0 +1,9 @@
+RobotSeeker 2.0.0 | 31-03-2024
+-------------------------------
+* Re-build the tool following python best practices
+	* This makes the results more accurate and speeds up the script
+* Added detailed comments throughout the code for better clarity and support for contributors and learners
+
+RobotSeeker 1.0.0 | 19-02-2024
+-------------------------------
+* Initial Release
