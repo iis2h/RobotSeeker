@@ -14,7 +14,7 @@
   <a href="#status">Status</a> •
   <a href="#flags">Flags</a> •
   <a href="#output">Output</a> •
-  <a href="https://github.com/iis2h/RobotSeeker/main/CHANGELOG.txt">CHANGELOG</a>
+  <a href="https://raw.githubusercontent.com/iis2h/RobotSeeker/main/CHANGELOG.txt">CHANGELOG</a>
 </p>
 
 
