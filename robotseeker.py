@@ -8,7 +8,7 @@ import os
 
 # Argumetns
 parser = argparse.ArgumentParser()
-parser.add_argument('-f', type=str, metavar='File', help='Path to the file')
+parser.add_argument('-f', type=str, metavar='File', help='Path to the input file')
 parser.add_argument('-m', action='store_true', help='Map the content of "robots.txt" to its corresponding URL')
 parser.add_argument('-g', action='store_true', help="Generate a wordlist")
 parser.add_argument('-r', type=int, metavar='Rate Limit', default=3, help='Requests per second (Default is 3)')
