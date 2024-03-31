@@ -20,8 +20,9 @@
 
 RobotSeeker is fast and reliable python tool that grabs `robots.txt` files from a bunch of subdomains
 
-#### Why is grabbing robots.txt useful ?
-`robots.txt` can include sensitive information and endpoints intended to be hidden
+> Why is grabbing robots.txt useful ?
+>
+> robots files can include sensitive information and endpoints intended to be hidden
 
 ## Features
 
