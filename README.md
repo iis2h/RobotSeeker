@@ -1,13 +1,16 @@
-# RobotSeeker
+<h1 align="center">
+ RobotSeeker
+<br>
+</h1>
 
-<p>
+<p align="center">
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/github/license/iis2h/RobotSeeker.svg"></a>
   <a href="https://github.com/iis2h/RobotSeeker/releases"><img src="https://img.shields.io/github/v/tag/iis2h/RobotSeeker?label=version"></a>
   <a href="https://www.python.org"><img src="https://img.shields.io/github/languages/top/iis2h/RobotSeeker?color=15E245"></a>
   <a href="https://github.com/iis2h/RobotSeeker/issues"><img src="https://img.shields.io/badge/contributes-welcome-blue"></a>
 </p>
 
-<p>
+<p align="center">
   <a href="#features">Features</a> •
   <a href="#installation">Installation</a> •
   <a href="#usage">Usage</a> •
@@ -18,11 +21,13 @@
 </p>
 
 
-RobotSeeker is fast and reliable python tool that grabs `robots.txt` files from a bunch of subdomains
+<p align="center">RobotSeeker is fast and reliable python tool that grabs robots.txt files from a bunch of subdomains asynchronously</p>
 
-> Why is grabbing robots.txt useful ?
->
-> robots files can include sensitive information and endpoints intended to be hidden
+<p align="center">
+Grabbing robots.txt is useful because it can include sensitive information and endpoints intended to be hidden
+</p>
+
+<br>
 
 ## Features
 
@@ -51,6 +56,8 @@ pip3 install -r requirements.txt
 | `-q` | Quite Mode (no banner) |
 | `--version` | Display version |
 
+---
+
 ### Status
 
 | Status | Description |
@@ -59,7 +66,7 @@ pip3 install -r requirements.txt
 | `BLANK` | Either an empty page or a Soft 404 page |
 | `ERROR` | Error when trying to connect |
 
-*normal*
+*normal mode*
 ```bash
 pyhton3 robotseeker.py -f subdomains.txt -m -g
 ```
@@ -78,7 +85,7 @@ pyhton3 robotseeker.py -f subdomains.txt -m -g
 [200]: http://sub.example-5.com/robots.txt
 ```
 
-*verbos*
+*verbos mode*
 ```bash
 pyhton3 robotseeker.py -f subdomains.txt -m -g -v
 ```
@@ -97,6 +104,7 @@ pyhton3 robotseeker.py -f subdomains.txt -m -g -v
 [BLANK]: https://sub.example-5.com/robots.txt
 ```
 
+---
 
 ### Output
 | File | Description | Created When |
@@ -115,4 +123,4 @@ pyhton3 robotseeker.py -f subdomains.txt -m -g -v
 <p><img width="500" alt="mapped" src="https://github.com/iis2h/RobotSeeker/assets/43062742/db0f385f-583f-495d-a8c0-6a6206411b9f"></p>
 
 ---
-> Your stars greatly support our project ⭐ 
+ Your stars greatly support our project ⭐ 
