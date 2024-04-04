@@ -68,7 +68,7 @@ pip3 install -r requirements.txt
 
 *normal mode*
 ```bash
-pyhton3 robotseeker.py -f subdomains.txt -m -g
+python3 robotseeker.py -f subdomains.txt -m -g
 ```
 ```bash
   ___  ___  ___  ___ _____ ___ ___ ___ _  _____ ___
@@ -87,7 +87,7 @@ pyhton3 robotseeker.py -f subdomains.txt -m -g
 
 *verbos mode*
 ```bash
-pyhton3 robotseeker.py -f subdomains.txt -m -g -v
+python3 robotseeker.py -f subdomains.txt -m -g -v
 ```
 ```bash
   ___  ___  ___  ___ _____ ___ ___ ___ _  _____ ___
