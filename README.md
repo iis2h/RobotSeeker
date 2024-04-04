@@ -97,11 +97,11 @@ python3 robotseeker.py -f subdomains.txt -m -g -v
 
  Crafted with Passion by iis2h aka Frenzy
 
-[404]: https://sub1.example.com/robots.txt
-[200]: https://sub2.example.com/robots.txt
-[ERROR]: Cannot connect to https://sub3.example.com
-[502]: https://sub4.example.com/robots.txt
-[BLANK]: https://sub5.example.com/robots.txt
+[404]: https://sub6.example.com/robots.txt
+[200]: https://sub7.example.com/robots.txt
+[ERROR]: Cannot connect to https://sub8.example.com
+[502]: https://sub9.example.com/robots.txt
+[BLANK]: https://sub10.example.com/robots.txt
 ```
 
 ---
