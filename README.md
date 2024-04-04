@@ -6,7 +6,7 @@
 <p align="center">
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/github/license/iis2h/RobotSeeker.svg"></a>
   <a href="https://github.com/iis2h/RobotSeeker/releases"><img src="https://img.shields.io/github/v/tag/iis2h/RobotSeeker?label=version"></a>
-  <a href="https://www.python.org"><img src="https://img.shields.io/github/languages/top/iis2h/RobotSeeker?color=15E245"></a>
+  <a href="https://www.python.org"><img src="https://img.shields.io/badge/python-3.6+-yellow"></a>
   <a href="https://github.com/iis2h/RobotSeeker/issues"><img src="https://img.shields.io/badge/contributes-welcome-blue"></a>
 </p>
 
@@ -78,11 +78,11 @@ pyhton3 robotseeker.py -f subdomains.txt -m -g
 
  Crafted with Passion by iis2h aka Frenzy
 
-[200]: http://sub.example-1.com/robots.txt
-[200]: http://sub.example-2.com/robots.txt
-[200]: http://sub.example-3.com/robots.txt
-[200]: http://sub.example-4.com/robots.txt
-[200]: http://sub.example-5.com/robots.txt
+[200]: http://sub1.example.com/robots.txt
+[200]: http://sub2.example.com/robots.txt
+[200]: http://sub3.example.com/robots.txt
+[200]: http://sub4.example.com/robots.txt
+[200]: http://sub5.example.com/robots.txt
 ```
 
 *verbos mode*
@@ -97,29 +97,29 @@ pyhton3 robotseeker.py -f subdomains.txt -m -g -v
 
  Crafted with Passion by iis2h aka Frenzy
 
-[404]: https://sub.example-1.com/robots.txt
-[200]: https://sub.example-2.com/robots.txt
-[ERROR]: Cannot connect to https://sub.example-3.com
-[502]: https://sub.example-4.com/robots.txt
-[BLANK]: https://sub.example-5.com/robots.txt
+[404]: https://sub1.example.com/robots.txt
+[200]: https://sub2.example.com/robots.txt
+[ERROR]: Cannot connect to https://sub3.example.com
+[502]: https://sub4.example.com/robots.txt
+[BLANK]: https://sub5.example.com/robots.txt
 ```
 
 ---
 
 ### Output
-| File | Description | Created When |
+| File | Description | Created |
 |---|---|---|
 | valid | Valid URLs | Automatically |
 | wordlist | Generated Wordlist | When using `-g` flag |
 | mapped | Endpoints Mapped to its Subdomain | When using `-m` flag |
 
-*valid*
+*valid.txt*
 <p><img width="500" alt="valid" src="https://github.com/iis2h/RobotSeeker/assets/43062742/4117d68f-21c3-48b9-abac-2370784f2fde"></p>
 
-*wordlist*
+*wordlist.txt*
 <p><img width="500" alt="wordlist" src="https://github.com/iis2h/RobotSeeker/assets/43062742/061146ee-5fa3-4953-9803-09863e14bd2c"></p>
 
-*mapped*
+*mapped.txt*
 <p><img width="500" alt="mapped" src="https://github.com/iis2h/RobotSeeker/assets/43062742/db0f385f-583f-495d-a8c0-6a6206411b9f"></p>
 
 ---
